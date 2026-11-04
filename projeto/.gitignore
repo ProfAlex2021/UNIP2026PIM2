@@ -1,0 +1,10 @@
+# Saídas de compilação do CodeBlocks
+bin/
+obj/
+*.o
+*.exe
+
+# Arquivos pessoais do CodeBlocks
+*.layout
+*.depend
+*.save

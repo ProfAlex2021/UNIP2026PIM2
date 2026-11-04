@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Oficina Automotiva 2000" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/oficina" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/oficina" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-finput-charset=UTF-8" />
+			<Add option="-fexec-charset=CP850" />
+		</Compiler>
+		<Unit filename="agendamento.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="agendamento.h" />
+		<Unit filename="cadastro.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cadastro.h" />
+		<Unit filename="consulta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="consulta.h" />
+		<Unit filename="dados.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dados.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="relatorio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="relatorio.h" />
+		<Unit filename="tela.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tela.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
